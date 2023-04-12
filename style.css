@@ -1,0 +1,43 @@
+.hr-line-dashed {
+    border-top: 1px dashed #E7EAEC;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.result {
+    padding: 0;
+    background-clip: content-box;
+    background-color: #ffffff;
+    margin-left: 25%;
+    margin-right: 25%
+}
+
+html,
+body {
+    padding-top: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f8fa;
+}
+
+.resultcontent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.h2 {
+    font-weight: lighter;
+}
+
+
+
+/* Used to adjust margins on smaller screen size */
+@media only screen and (max-width: 959px) {
+    .result {
+        max-width: 95%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
